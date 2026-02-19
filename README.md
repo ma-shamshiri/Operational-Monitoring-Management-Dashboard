@@ -63,7 +63,7 @@ The system follows a clean full-stack separation:
 - Role-aware routing and conditional UI rendering
 
 ### Service Layer
-- FastAPI backend exposing REST endpoints
+- Node.js backend exposing REST endpoints
 - Scheduled background jobs for aggregation
 - Predictable response contracts for frontend consumption
 
@@ -76,8 +76,8 @@ The system follows a clean full-stack separation:
 <a id="toc-tech-stack"></a>
 ## 🧰 Technology Stack
 
-- **Frontend:** Next.js, React, TypeScript  
-- **Backend:** FastAPI (Python)  
+- **Frontend:** React, TypeScript  
+- **Backend:** Node.js
 - **Database:** PostgreSQL  
 - **Containerization:** Docker  
 
